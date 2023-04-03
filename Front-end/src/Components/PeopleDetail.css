@@ -1,0 +1,71 @@
+.peep-detail {
+    background: #aca8a8;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.peep-detail p {
+    margin: 0 0 0 0;
+    padding-left: 2%;
+    border-top: 10%;
+    font-size: 1.2em;
+    color: var(--primary);
+}
+
+.peep-detail h4 {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+}
+.detail svg{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.text {
+    
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: var(--primary);
+    align-items: center;
+    color: rgb(5, 5, 7);
+}
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+.date {
+    margin: 0;
+    font-size: small;
+    color: #070505;
+}
+.label{
+    font-size:medium;
+    color: rgb(115, 91, 249);
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    padding: 6px;
+    border-radius: 50%;
+    color: #333;
+}

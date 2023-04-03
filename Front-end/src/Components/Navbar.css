@@ -1,0 +1,49 @@
+.navbar {
+    background-color: rgb(189, 243, 176);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 120px;
+    list-style-type: none;
+    color: #486c80;
+    font-size: 15px;
+    
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    
+}
+
+.welcome{
+    color: black;
+    font-size: medium;
+}
+
+.btn {
+    margin-top: 30px;
+    display: block;
+    border-width: 0;
+    border-radius: 36px;
+    background: #FEE996;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em;
+    margin: 10px 10px;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
